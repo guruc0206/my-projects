@@ -1,0 +1,14 @@
+>>> from app import app, db
+>>> app.app_context().push()
+>>> db.create_all()
+
+
+db.drop_all()
+db.create_all()
+
+
+https://www.youtube.com/watch?v=hbDRTZarMUw
+
+https://www.youtube.com/watch?v=9MHYHgh4jYc
+
+https://www.digitalocean.com/community/tutorials/how-to-use-flask-sqlalchemy-to-interact-with-databases-in-a-flask-application
